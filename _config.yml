@@ -7,7 +7,7 @@ title: Leonids
 email:
 description: A simple and awesome blog theme powered by jekyll.
 url: https://bilardi.github.io/leonids # the base hostname & protocol for your site
-repository-forked: http://github.com/renyuanz/leonids/ # in the footer
+repository-forked: http://github.com/bilardi/leonids/ # in the footer
 favicon: # links of your favicon
   - favicon.ico
   - favicon.png
