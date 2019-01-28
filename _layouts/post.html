@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
+{% if site.navigation.hide-on-post == false %}
+{% include nav.html %}
+{% endif %}
 
-<a class="btn" href= "{{ site.url }}/" >
-  Home
-</a>
 {% if page.image.feature %}
 <div class="post-image-feature">
   <img class="feature-image" src=
@@ -31,6 +31,7 @@ layout: default
       </span>
       •
       {% include read_time.html %}
+      {% include cat_and_tag.html hide-cat=site.collection.categories.hide-on-post btn-cat=site.collection.categories.btn-on-post hide-tag=site.collection.tags.hide-on-post btn-tag=site.collection.tags.btn-on-post detail=page %}
     </span>
 
   </header>

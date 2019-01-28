@@ -1,6 +1,8 @@
 /* LAYOUT CSS */
 .cover {
   background-color: $background-color;
+  background-image: url($background-image);
+  background-size: $background-size;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -25,10 +27,13 @@
     width: 100px;
     height: 100px;
     float: none;
+    @include media-query($medium-screen) {
+      margin-right: 0;
+    }
   }
   .author_name {
     display: block;
-    color: #F36170;
+    color: $author-color;
     font-size: 1.75em;
     text-transform: lowercase;
   }
