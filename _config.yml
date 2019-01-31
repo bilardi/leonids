@@ -123,6 +123,8 @@ owner:
   telegram: #username
   wikipedia: #username
   custom:
+    - url: http://github.com/bilardi/leonids/
+      icon: fa-code
     - url: http://github.com/renyuanz/leonids/
       icon: fa-code-fork
 
