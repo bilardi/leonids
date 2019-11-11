@@ -21,7 +21,7 @@ home:
 #  icon: fa-leaf
 #  icon: fa-home
 readme:
-  hide-on-sidebar: false
+  hide-on-sidebar: true
   title: about
   url: about.html
 navigation:
@@ -91,6 +91,9 @@ plugins:
 #
 owner:
   name: Leonids
+  author:
+    name: Alessandra Bilardi #your name
+    link: https://alessandra.bilardi.net/ #your homepage
   avatar: leonids-logo.png # or external link
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
